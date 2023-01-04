@@ -84,7 +84,7 @@ loader(messageDiv);
 
 //fetch data from server -> bot's response
 
-const response = await fetch('https://myai-p611.onrender.com', {
+const response = await fetch('https://myai-p611.onrender.com/', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'
